@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GlowCell | Acessórios para Celular</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial, Helvetica, sans-serif;
+background:#0b0b0b;
+color:white;
+}
+
+header{
+background:#000;
+padding:20px;
+text-align:center;
+border-bottom:1px solid #1f1f1f;
+}
+
+header h1{
+color:#00ff88;
+letter-spacing:3px;
+}
+
+nav{
+margin-top:10px;
+}
+
+nav a{
+color:#aaa;
+margin:0 15px;
+text-decoration:none;
+}
+
+.hero{
+padding:80px 20px;
+text-align:center;
+}
+
+.hero h2{
+font-size:38px;
+}
+
+.hero p{
+color:#bdbdbd;
+max-width:600px;
+margin:auto;
+}
+
+.btn{
+display:inline-block;
+padding:14px 28px;
+background:#00ff88;
+color:#000;
+text-decoration:none;
+font-weight:bold;
+border-radius:30px;
+margin-top:20px;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+.products{
+padding:40px 20px;
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+gap:25px;
+max-width:1100px;
+margin:auto;
+}
+
+.card{
+background:#121212;
+border-radius:16px;
+padding:20px;
+text-align:center;
+box-shadow:0 0 10px rgba(0,255,136,0.1);
+}
+
+.card img{
+width:100%;
+border-radius:12px;
+}
+
+.price{
+font-size:22px;
+color:#00ff88;
+margin:15px 0;
+}
+
+.checkout{
+max-width:500px;
+margin:60px auto;
+background:#121212;
+padding:30px;
+border-radius:16px;
+}
+
+.checkout input{
+width:100%;
+padding:12px;
+margin-bottom:10px;
+border-radius:8px;
+border:none;
+}
+
+footer{
+text-align:center;
+padding:20px;
+color:#777;
+border-top:1px solid #1f1f1f;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>GlowCell</h1>
+<nav>
+<a href="#produtos">Produtos</a>
+<a href="#checkout">Pagamento</a>
+<a href="https://wa.me/5511992659121?text=Olá%20vim%20pelo%20site%20GlowCell" target="_blank">WhatsApp</a>
+</nav>
+</header>
+
+<section class="hero">
+<h2>Acessórios premium para proteger seu celular</h2>
+<p>Capinhas, películas e combos com qualidade superior e envio rápido para todo Brasil.</p>
+<a class="btn" href="#produtos">Ver Produtos</a>
+</section>
+
+<section class="products" id="produtos">
+
+<div class="card">
+<img src="https://via.placeholder.com/300x300?text=Capinha+Premium">
+<h3>Capinha Premium</h3>
+<p>Proteção reforçada e design moderno.</p>
+<div class="price">R$ 39,90</div>
+<a class="btn" href="https://wa.me/5511992659121?text=Quero%20comprar%20a%20Capinha%20Premium" target="_blank">Comprar pelo WhatsApp</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x300?text=Película+3D">
+<h3>Película de Vidro 3D</h3>
+<p>Alta resistência e toque perfeito.</p>
+<div class="price">R$ 29,90</div>
+<a class="btn" href="https://wa.me/5511992659121?text=Quero%20comprar%20a%20Película%203D" target="_blank">Comprar pelo WhatsApp</a>
+</div>
+
+<div class="card">
+<img src="https://via.placeholder.com/300x300?text=Combo+Proteção">
+<h3>Combo Proteção Total</h3>
+<p>Capinha + Película com desconto.</p>
+<div class="price">R$ 59,90</div>
+<a class="btn" href="https://wa.me/5511992659121?text=Quero%20comprar%20o%20Combo" target="_blank">Comprar pelo WhatsApp</a>
+</div>
+
+</section>
+
+<section class="checkout" id="checkout">
+<h2>Finalizar Pedido</h2>
+<input type="text" placeholder="Nome completo">
+<input type="text" placeholder="WhatsApp">
+<input type="text" placeholder="Endereço">
+
+<a class="btn" href="https://www.mercadopago.com.br" target="_blank" style="width:100%;text-align:center;">
+Pagar com Cartão ou Pix
+</a>
+</section>
+
+<footer>
+© 2026 GlowCell — Loja oficial de acessórios para celular
+</footer>
+
+</body>
+</html>
